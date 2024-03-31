@@ -1,0 +1,149 @@
+/* styles.css */
+
+/* Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Color Scheme */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+}
+
+body {
+  background-color: var(--background-color);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h1 {
+  margin: 0;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+/* Search Bar */
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+/* "Add to Your List" Button */
+.book-card button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.book-card button:hover {
+  background-color: #0056b3;
+}
+
+/* "View Saved Books" Button */
+.view-saved-books-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-saved-books-button:hover {
+  background-color: #0056b3;
+}
+
+/* Saved Books Page */
+.saved-books {
+  margin-top: 20px;
+}
+
+.saved-book {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.saved-book h3 {
+  margin-top: 0;
+}
+
+.saved-book p {
+  margin-bottom: 10px;
+}
+
+.saved-book button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saved-book button:hover {
+  background-color: #bd2130;
+}
+
+/* Preview Link */
+.book-details a {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.book-details a:hover {
+  text-decoration: underline;
+}
+
