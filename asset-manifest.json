@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Book-Recommendation/static/css/main.7c2b446f.css",
+    "main.js": "/Book-Recommendation/static/js/main.d9b18c18.js",
+    "index.html": "/Book-Recommendation/index.html",
+    "main.7c2b446f.css.map": "/Book-Recommendation/static/css/main.7c2b446f.css.map",
+    "main.d9b18c18.js.map": "/Book-Recommendation/static/js/main.d9b18c18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c2b446f.css",
+    "static/js/main.d9b18c18.js"
+  ]
+}
