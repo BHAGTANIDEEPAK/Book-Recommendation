@@ -48,7 +48,7 @@ const BookList = ({ books }) => {
         <div>
           {/* Display saved books */}
           <SavedBooks savedBooks={savedBooks} removeFromSaved={handleRemoveFromSaved} />
-          {savedBooks.length === 0 && <p>No saved books</p>} {/* Display message if no saved books */}
+          {savedBooks.length === 0 && <p style={{color:'white'}}>No saved books</p>} {/* Display message if no saved books */}
         </div>
       ) : (
         <div className="book-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(400px, 1fr))', gap: '20px' }}>

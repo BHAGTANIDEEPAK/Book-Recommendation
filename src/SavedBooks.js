@@ -5,7 +5,7 @@ import './styles.css';
 const SavedBooks = ({ savedBooks, removeFromSaved }) => {
   return (
     <div className="saved-books-container"> {/* Added class name */}
-      <h2>Your Saved Books</h2>
+      <h2 style={{color:'white'}}>Your Saved Books</h2>
       {savedBooks.map((book) => (
         <div key={book.id} className="saved-book">
           <h3>{book.volumeInfo.title}</h3>

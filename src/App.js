@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Book Recommendation</h1>
+      <h1 style={{color:'white'}}>Book Recommendation</h1>
       <SearchBar onSearch={handleSearch} />
       <BookList books={books} />
     </div>

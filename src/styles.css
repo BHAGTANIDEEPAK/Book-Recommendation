@@ -31,6 +31,13 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+
+}
+body{
+
+    background-image: url('gradient-abstract-wireframe-background_23-2149009903.jpg');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
 }
 
 .container h1 {
